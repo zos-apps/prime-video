@@ -1,0 +1,107 @@
+{
+  "name": "@zos-apps/prime-video",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "zos": {
+    "id": "ai.hanzo.prime-video",
+    "name": "Prime Video",
+    "icon": "▶️",
+    "category": "entertainment",
+    "description": "Stream movies and TV with Amazon Prime",
+    "permissions": [
+      "network"
+    ],
+    "window": {
+      "defaultSize": {
+        "width": 1100,
+        "height": 700
+      },
+      "resizable": true
+    },
+    "featured": true,
+    "tags": [
+      "streaming",
+      "amazon",
+      "movies",
+      "entertainment"
+    ],
+    "about": "Stream movies, TV shows, and Prime Originals.",
+    "help": [
+      "Browse content",
+      "Add to watchlist",
+      "Download for offline"
+    ],
+    "docs": "https://zos-apps.github.io/prime-video",
+    "site": "https://github.com/zos-apps/prime-video",
+    "features": [
+      "4K streaming",
+      "X-Ray",
+      "Downloads",
+      "Multiple profiles",
+      "Channels"
+    ],
+    "shortcuts": [
+      "Space Play/Pause",
+      "F Fullscreen"
+    ],
+    "screenshots": {
+      "hero": "screenshots/hero.png",
+      "images": [
+        "screenshots/1-main.png",
+        "screenshots/2-feature.png"
+      ]
+    },
+    "downloads": {
+      "web": "https://zos-apps.github.io/prime-video"
+    },
+    "releaseDate": "2024-12-31",
+    "support": "https://github.com/zos-apps/prime-video/issues",
+    "changelog": "https://github.com/zos-apps/prime-video/releases"
+  },
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch"
+  },
+  "peerDependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.0",
+    "@types/react-dom": "^18.3.0",
+    "@zos-apps/config": "workspace:*",
+    "tsup": "^8.3.5",
+    "typescript": "^5.7.2"
+  },
+  "author": "Hanzo AI",
+  "license": "MIT",
+  "description": "Stream movies and TV with Amazon Prime",
+  "homepage": "https://zos-apps.github.io/prime-video",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zos-apps/prime-video.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zos-apps/prime-video/issues"
+  },
+  "keywords": [
+    "zos",
+    "app",
+    "prime-video",
+    "streaming",
+    "amazon",
+    "movies",
+    "entertainment"
+  ],
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/zos-apps"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
+}
